@@ -15,7 +15,7 @@ class EngineTest {
     }
 
     @Test
-    fun engine_TurnsOff() {
+    fun engine_turnsOff() {
         engine.turnOn()
         engine.turnOff()
 
