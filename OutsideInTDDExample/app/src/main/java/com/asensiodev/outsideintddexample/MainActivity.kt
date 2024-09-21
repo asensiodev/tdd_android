@@ -15,6 +15,11 @@ import com.asensiodev.outsideintddexample.ui.theme.OutsideInTDDExampleTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        val engine = Engine()
+        val car = Car(20.0, engine)
+
+        car.turnOn()
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
